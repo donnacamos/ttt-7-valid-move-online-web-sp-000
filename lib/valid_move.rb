@@ -2,7 +2,7 @@
 def valid_move?(board, index)
    if position_taken?(board, index)
     return false
-    if between?(10..100)
+    if index between?(10..100)
     return false
   else 
     return true
